@@ -14,12 +14,10 @@
     "format": "biome format --write ./src",
     "lint": "biome check --write ./src",
     "preinstall": "npx only-allow pnpm",
-    "icons": "node scripts/generate-icons.js",
-    "generate-types": "wrangler types"
+    "icons": "node scripts/generate-icons.js"
   },
   "dependencies": {
     "@astrojs/check": "^0.9.8",
-    "@astrojs/cloudflare": "^13.1.8",
     "@astrojs/compiler-rs": "^0.1.6",
     "@astrojs/mdx": "^5.0.3",
     "@astrojs/rss": "^4.0.18",
@@ -91,11 +89,7 @@
     "@types/sanitize-html": "^2.16.1",
     "postcss-import": "^16.1.1",
     "postcss-nesting": "^13.0.2",
-    "tailwindcss": "^4.1.18",
-    "wrangler": "^4.81.1"
+    "tailwindcss": "^4.1.18"
   },
-  "packageManager": "pnpm@9.14.4",
-  "overrides": {
-    "vite": "^7"
-  }
+  "packageManager": "pnpm@9.14.4"
 }
